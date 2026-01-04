@@ -175,6 +175,183 @@ section {
       </div>
     </header>
 
+    <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Harbor — A safe place to find connection</title>
+  <meta name="description" content="Harbor is a dating space built for disabled veterans — calm, respectful, and designed with safety first." />
+
+  <style>
+   :root{
+  --bg: #f5f8fb;            /* soft sky */
+  --card: #ffffff;         /* clean surface */
+  --text: #1e2a33;         /* deep blue-gray */
+  --muted: #5f7280;        /* calm secondary text */
+  --border: #d9e2ea;       /* light divider */
+  --accent: #3f6f8f;       /* coastal blue */
+  --accent-soft: #e7f0f6;  /* pale blue */
+  --focus: #2f5f7a;        /* focus/hover */
+  --shadow: 0 10px 28px rgba(30,42,51,.08);
+  --radius: 16px;
+}
+
+    *{ box-sizing: border-box; }
+    body{
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: var(--text);
+  background: linear-gradient(
+    to bottom,
+    #f9fbfa,
+    #f1f5f4
+  );
+  line-height: 1.5;
+}
+
+    a{ color: inherit; }
+    .wrap{ max-width: 980px; margin: 0 auto; padding: 28px 18px 56px; }
+
+    header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 16px;
+      padding: 10px 0 22px;
+    }
+    .brand{
+      display:flex; flex-direction:column; gap: 3px;
+    }
+    .brand strong{ font-size: 20px; letter-spacing: .2px; }
+    .brand span{ color: var(--muted); font-size: 14px; }
+
+    .pill{
+  display:inline-flex;
+  align-items:center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 13px;
+}
+
+    .hero{
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 18px;
+      align-items: start;
+      margin-top: 8px;
+    }
+
+    .card{
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 22px;
+}
+
+    h1{ margin: 0 0 10px; font-size: 40px; line-height: 1.1; letter-spacing: -0.5px; }
+    p{ margin: 0 0 12px; color: var(--muted); }
+    .lead{ font-size: 16px; }
+
+    .ctaRow{ display:flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+    .btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #ffffff;
+  text-decoration:none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background: var(--focus);
+}
+    .btn.secondary{
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-color: var(--accent-soft);
+}
+    .grid3{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-top: 14px;
+    }
+    .grid3 h3{ margin: 0 0 6px; font-size: 16px; }
+    .grid3 p{ margin: 0; font-size: 14px; }
+
+    .small{ font-size: 13px; color: var(--muted); }
+    .section{ margin-top: 16px; }
+
+    form{ display:grid; gap: 10px; margin-top: 10px; }
+    label{ font-weight: 600; font-size: 13px; }
+    input[type="email"], input[type="text"]{
+      width: 100%;
+      padding: 12px 12px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: rgba(0,0,0,.18);
+      color: var(--text);
+    }
+    .formRow{
+      display:grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: end;
+    }
+
+    footer{
+      margin-top: 22px;
+      color: var(--muted);
+      font-size: 13px;
+      display:flex;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      gap: 10px;
+    }
+
+    @media (max-width: 860px){
+      .hero{ grid-template-columns: 1fr; }
+      h1{ font-size: 34px; }
+      .grid3{ grid-template-columns: 1fr; }
+      .formRow{ grid-template-columns: 1fr; }
+    }
+
+    html {
+  scroll-behavior: smooth;
+}
+    .section {
+  margin-top: 24px;
+}
+section {
+  scroll-margin-top: 20px;
+}   
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <strong>Harbor</strong>
+        <span>A safe place to find connection</span>
+      </div>
+      <div class="pill" aria-label="Status">
+        <span aria-hidden="true">🛟</span>
+        Launching soon • Veteran-first
+      </div>
+    </header>
+
     <div class="hero">
       <section class="card" aria-labelledby="hero-title">
         <h1 id="hero-title">Welcome to Harbor</h1>
@@ -268,6 +445,21 @@ section {
     Veteran-first at launch. Non-veterans may be welcomed later.
   </p>
 </section>           
+          <hr style="border:0; border-top:1px solid var(--border); margin:14px 0;">
+
+        <p class="small">
+          Privacy promise: your information is never sold. You control your visibility and interactions.
+        </p>
+      </aside>
+    </div>
+
+    <footer>
+      <span>© 2025 HarborVets</span>
+      <span><a href="mailto:contact@harborvets.app">contact@harborvets.app</a></span>
+    </footer>
+  </div>
+</body>
+</html>         
           <hr style="border:0; border-top:1px solid var(--border); margin:14px 0;">
 
         <p class="small">
