@@ -4,9 +4,9 @@ Landing page and early validation for Harbor.
 
 A calm, safety-first dating experience built for disabled veterans.
 
-[Harbor Preview]<img src="./images/harbor.png" width="700" alt="Harbor preview">
+[Visit Harbor](https://harborvets.app)
 
-A calm, safety-first dating experience built for disabled veterans.
+<img src="./images/harbor.png" width="700" alt="Harbor preview">
 
 ---
 
