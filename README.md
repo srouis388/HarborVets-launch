@@ -1,7 +1,7 @@
 # 🌊 Harbor
 Landing page and early validation for Harbor.
 
-![Harbor Preview](./screenshot.png)
+![Harbor Preview](./harbor.png)
 
 A calm, safety-first dating experience built for disabled veterans.
 
