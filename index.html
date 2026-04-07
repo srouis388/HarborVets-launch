@@ -282,9 +282,12 @@
     </section>
 
     <footer>
-      <span>© 2025 HarborVets</span>
+      © <span id="year"></span> HarborVets
       <span><a href="mailto:contact@harborvets.app">contact@harborvets.app</a></span>
     </footer>
   </div>
+  <script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
