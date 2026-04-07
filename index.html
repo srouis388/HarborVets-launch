@@ -147,15 +147,19 @@
   .section{ margin-top: 24px; }
   section{ scroll-margin-top: 20px; }
 
-  footer{
+  footer {
   margin-top: 22px;
   color: var(--muted);
   font-size: 13px;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  flex-wrap:wrap;
-  gap: 8px;
+  display: flex;
+  justify-content: center; /* 👈 key change */
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+footer .divider {
+  opacity: 0.6;
 }
 
   iframe{
@@ -284,7 +288,7 @@
 
 <footer>
   <span>© <span id="year"></span> HarborVets</span>
-  <span>•</span>
+  <span class="divider">•</span>
   <a href="mailto:contact@harborvets.app">contact@harborvets.app</a>
 </footer>
   </div>
